@@ -105,7 +105,7 @@ var mySliceArray = friends.slice(-7,-4);
 
 console.log(mySliceArray);
 */
-
+/*
 var friends = [
 
     "Anton",
@@ -131,5 +131,34 @@ var allFriens = friends.concat(workFriends);
 
 console.log(allFriens);
 
+*/
 
+var friends = [
+    "Anton",
+    "Mohamad",
+    "Alia",
+    "Alias",
+    "Toni",
+    "Abdallah",
+    "Ayham",
+    "Sabren"
 
+];
+
+console.log(friends);
+
+var workFriends = [
+    "Saleh",
+    "Omar",
+    "Masa"
+
+];
+var otherFriends = [
+    "salem",
+    "Mina",
+    "Kamel"
+
+];
+var allFriens = friends.concat(workFriends, otherFriends);
+
+console.log(allFriens);
